@@ -1,24 +1,143 @@
 {
-  "last_updated": "2026-09-07T20:57:26.025764+00:00",
+  "last_updated": "2026-09-08T10:26:18.449632+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
       "runs_with_data": 7,
-      "total_workflow_runs": 73,
+      "total_workflow_runs": 71,
       "total_success": 63,
-      "total_failure": 10,
-      "success_rate": 86.3
+      "total_failure": 8,
+      "success_rate": 88.7
     },
     "last_30_days": {
-      "days": 27,
-      "runs_with_data": 20,
-      "total_workflow_runs": 192,
-      "total_success": 168,
-      "total_failure": 24,
-      "success_rate": 87.5
+      "days": 28,
+      "runs_with_data": 21,
+      "total_workflow_runs": 202,
+      "total_success": 177,
+      "total_failure": 25,
+      "success_rate": 87.6
     }
   },
   "history": [
+    {
+      "date": "2026-09-08",
+      "orchestrator_ran": true,
+      "orchestrator_status": "pending",
+      "orchestrator_url": "https://github.com/harryfrzz/rl/actions/runs/34215246069",
+      "orchestrator_run_id": 34215246069,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/harryfrzz/rl/actions/runs/34215246069/job/102025389294",
+          "display_name": "Linux Tests"
+        },
+        "test-linux-llm.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/harryfrzz/rl/actions/runs/34215246069/job/102025384105",
+          "display_name": "LLM Tests"
+        },
+        "test-linux-habitat.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/harryfrzz/rl/actions/runs/34215246069/job/102025384975",
+          "display_name": "Habitat Tests"
+        },
+        "test-linux-tutorials.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/harryfrzz/rl/actions/runs/34215246069/job/102025383248",
+          "display_name": "Tutorials Tests"
+        },
+        "test-linux-examples.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/harryfrzz/rl/actions/runs/34215246069/job/102025383386",
+          "display_name": "Examples Tests"
+        },
+        "test-linux-sota.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/harryfrzz/rl/actions/runs/34215246069/job/102025383347",
+          "display_name": "SOTA Tests"
+        },
+        "test-linux-libs.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/harryfrzz/rl/actions/runs/34215246069/job/102025385131",
+          "display_name": "Libs Tests"
+        },
+        "test-windows-optdepts.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/harryfrzz/rl/actions/runs/34215246069/job/102025383318",
+          "display_name": "Windows Tests"
+        },
+        "lint.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/harryfrzz/rl/actions/runs/34215246069/job/102025383819",
+          "display_name": "Lint"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/harryfrzz/rl/actions/runs/34215246069/job/102025383613",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/harryfrzz/rl/actions/runs/34215246069/job/102025383408",
+          "display_name": "Benchmarks"
+        },
+        "validate-test-partitioning.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/harryfrzz/rl/actions/runs/34215246069/job/102025383463",
+          "display_name": "Test Partitioning"
+        },
+        "nightly_build.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/harryfrzz/rl/actions/runs/34215246069/job/102025384369",
+          "display_name": "Nightly Build"
+        },
+        "build-wheels-linux.yml": {
+          "status": "failure",
+          "conclusion": "failure",
+          "url": "https://github.com/harryfrzz/rl/actions/runs/34215246069/job/102025383577",
+          "display_name": "Wheels (Linux)"
+        },
+        "build-wheels-m1.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/harryfrzz/rl/actions/runs/34215246069/job/102025729956",
+          "display_name": "Wheels (M1)"
+        },
+        "build-wheels-windows.yml": {
+          "status": "skipped",
+          "conclusion": null,
+          "url": null,
+          "display_name": "Wheels (Windows)"
+        },
+        "build-wheels-aarch64-linux.yml": {
+          "status": "skipped",
+          "conclusion": null,
+          "url": null,
+          "display_name": "Wheels (Aarch64)"
+        }
+      },
+      "summary": {
+        "total": 17,
+        "success": 9,
+        "failure": 1,
+        "skipped": 7,
+        "other": 0,
+        "success_rate": 90.0
+      }
+    },
     {
       "date": "2026-09-07",
       "orchestrator_ran": true,
