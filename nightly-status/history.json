@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-27T11:10:24.642539+00:00",
+  "last_updated": "2026-09-27T20:39:24.701778+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -22,7 +22,7 @@
     {
       "date": "2026-09-27",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/harryfrzz/rl/actions/runs/36314823550",
       "orchestrator_run_id": 36314823550,
       "workflows": {
